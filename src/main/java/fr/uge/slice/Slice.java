@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public interface Slice<E> {
+  private final boolean erreur = "hello";
 	public Slice<E> subSlice(int from, int to);
 
 	public int size();

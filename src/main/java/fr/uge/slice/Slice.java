@@ -112,4 +112,5 @@ public interface Slice<E> {
 	//"foo", "bar", "baz", "whizz"
 	//"bar", "baz", "whizz"
 	//"baz", "whizz"
+	// pas de modif juste test
 }
